@@ -1,37 +1,44 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: sans-serif; /* default font for the body */
+}
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif; /* Using Roboto for headings */
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-weight: 700; /* make it bold */
+    text-decoration: underline;
+    color: #333;
+    background-color: #f0f0f0;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-weight: 700;
+    color: #444;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    padding: 0.5em 0;
+    margin: 1em 0;
+    color: #555;
+    background-color: #fff;
 }
 
 .logo {
-    background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url('https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png');
+    background-size: contain; /* ensures the entire logo fits*/
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    margin: 2em auto;
 }
